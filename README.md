@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Joey's Blog 
+> 作者：沈迦伟	学历：研二在读	研究兴趣:嵌入式，执行器，控制系统
+> 这是我的临时博客，在研究生学习生涯里学习技术经验以及生活中的一些琐事都可以在这里写写。这里的排版在改进，把原来的Word格式的博客写成Markdown形式的博客，同时我会改进博客，套用更好一点的模板。
 
-You can use the [editor on GitHub](https://github.com/Joeylllshen/JoeyBlog.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Contents
+> 博客的主要内容包括一些经验，论文解读，网络下载的工具等
+- [PCB拼板](./File/PCB拼板.md)
+- [raspberry ssh无显示设置](./File/raspberry ssh无显示设置.md)
+- [论文解读——激光雷达在天气影响下的分类](./File/论文解读——激光雷达在天气影响下的分类.md)
+- [人脸识别算法](./File/人脸识别算法.md)
+- [深度学习标注工具](./File/深度学习标注工具.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Joeylllshen/JoeyBlog.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
