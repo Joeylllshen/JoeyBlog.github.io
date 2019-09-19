@@ -10,7 +10,7 @@ description: Joey's Blogs
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: Joey
+github_username: joeylllshen
 url: "https://joeylllshen.github.io/Blog/"
 root: /blog/
 permalink: /:year/:month/:day/:title/
