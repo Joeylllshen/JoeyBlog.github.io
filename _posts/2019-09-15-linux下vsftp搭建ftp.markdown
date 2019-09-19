@@ -1,3 +1,16 @@
+---
+layout: post
+title:  "linux下vsftp搭建ftp"
+date:   2019-09-19 
+categories: ['Sample Post', 'update']
+tags: sample demo samuel-jackson-ipsum
+permalink: sample-post-2
+hero: images/image.jpg
+hero_high: images/image-high.jpg
+hero_low: images/image-low.jpg
+hero_alt: Demo Image
+---
+
 ### vsftp安装
 
 1.检查是否安装了vsftpd软件

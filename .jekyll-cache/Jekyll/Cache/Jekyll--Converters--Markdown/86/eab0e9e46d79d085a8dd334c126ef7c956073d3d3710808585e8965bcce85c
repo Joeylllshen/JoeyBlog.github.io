@@ -1,0 +1,93 @@
+I"{<p>All content lying inside the <code class="language-markup">&lt;body&gt;</code> element is part of a section. Sections in HTML5 can be nested. Beside the main section, defined by the <code class="language-markup">&lt;body&gt;</code> element, section limits are defined either explicitly or implicitly. Explicitly-defined sections are the content within <code class="language-markup">&lt;body&gt;</code>,  <code class="language-markup">&lt;section&gt;</code>,  <code class="language-markup">&lt;article&gt;</code>,  <code class="language-markup">&lt;aside&gt;</code>, and <code class="language-markup">&lt;nav&gt;</code> tags.</p>
+
+<div class="alert-success">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <blockquote class="text-black"><strong>Note:</strong> Each section can have its own heading hierarchy. Therefore, even a nested section can have an <code class="language-markup">&lt;h1&gt;</code>. See <a href="https://developer.mozilla.org/en-US/docs/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5">Defining Headings in HTML5</a>.</blockquote>
+</div>
+
+<p>Example:</p>
+
+<!-- more -->
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This HTML snippet defines a top-level section:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This section has three subsections:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">&lt;section&gt;
+  &lt;h1&gt;Forest elephants&lt;/h1&gt;
+
+  &lt;section&gt;
+    &lt;h1&gt;Introduction&lt;/h1&gt;
+    &lt;p&gt;In this section, we discuss the lesser known forest elephants.&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not live in trees but among them.&lt;/p&gt;
+  &lt;/section&gt;
+
+  &lt;aside&gt;
+    &lt;p&gt;advertising block&lt;/p&gt;
+  &lt;/aside&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;(c) 2010 The Example company&lt;/p&gt;
+&lt;/footer&gt;</code>
+</pre>
+
+<p>This leads to the following outline:</p>
+
+<pre class="line-numbers">
+<code class="language-markup">1. Forest elephants
+   1.1 Introduction
+   1.2 Habitat
+</code>
+</pre>
+
+<blockquote>
+  <p>source article: <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Sections_in_HTML5">Defining Sections in HTML5</a></p>
+</blockquote>
+:ET
