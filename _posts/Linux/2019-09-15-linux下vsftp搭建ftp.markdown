@@ -30,6 +30,7 @@ permalink: linux-ftp
 4.更新openssl的rpm包，出现以下错误，原因是openssl的rpm包已经安装了一个版本，所有产生了冲突
 
 ![这里写图片描述](https://img-blog.csdn.net/2018060419042994?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N5MTA4NDQ2Mjk5Mw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 解决方式：使用更新命令，而不是安装命令
 
  `#rpm -Uvh openssl-1.0.1e-57.el6.x86_64.rpm --nodeps`

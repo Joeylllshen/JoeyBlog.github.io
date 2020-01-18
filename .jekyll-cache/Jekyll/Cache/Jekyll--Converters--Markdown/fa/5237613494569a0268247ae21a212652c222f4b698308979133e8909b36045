@@ -1,0 +1,77 @@
+I")<h1 id="markdown-下并排显示两张图片">Markdown 下并排显示两张图片</h1>
+<p>Markdown 下并排显示两张图片，这里涉及到html语法，采用表格语法.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;table&gt;
+        &lt;tr&gt;  &lt;!---row---&gt;
+            &lt;th&gt;Header 1&lt;/th&gt;
+            &lt;th&gt;Header 2&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; row1,cell 1&lt;/td&gt;   &lt;!---单元格----&gt;
+            &lt;td&gt; row1,cell 2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt; row 2,cell 1&lt;/td&gt;
+            &lt;td&gt; row 2,cell 2&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+</code></pre></div></div>
+
+<table>
+    <tr>  <!---row--->
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td> row1,cell 1</td>   <!---单元格---->
+        <td> row1,cell 2</td>
+    </tr>
+    <tr>
+        <td> row 2,cell 1</td>
+        <td> row 2,cell 2</td>
+    </tr>
+</table>
+
+<p>以上是表格语法，在markdown里可以直接生成html 网页，在写博客的时候需要并排显示图片可以借鉴html的语法，例如下图</p>
+
+<p><img src="../photo/Markdown/A.png" width="100" height="100" div="" align="right" /></p>
+
+<p><img src="../photo/Markdown/A.png" width="100" height="100" div="" align="right" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;table&gt;
+&lt;tr&gt;
+    &lt;td&gt; &lt;img src="../photo/Markdown/A.png",width="200" height="100" /&gt;&lt;/td&gt;
+    &lt;td&gt; &lt;img src="../photo/Markdown/B.png",width="200" height="100" /&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></div></div>
+
+<p>在markdown 里语法是这样的。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![A Picture](../photo/Markdown/A.png)
+</code></pre></div></div>
+
+<p>或者</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;img src="../File/Photo/Markdown/B.png",width="200" height="100" /&gt;
+</code></pre></div></div>
+
+<blockquote>
+  <p>html与图片语法两者结合后就可以生成并排的效果</p>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt; &lt;img src="../File/Photo/Markdown/A.png",width="200" height="100" /&gt;&lt;/td&gt;
+        &lt;td&gt; &lt;img src="../File/Photo/Markdown/B.png",width="200" height="100" /&gt;&lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/table&gt;
+</code></pre></div></div>
+
+<table>
+    <tr>
+        <td> &lt;img src="../File/Photo/Markdown/A.png",width="200" height="100" /&gt;</td>
+        <td> &lt;img src="../File/Photo/Markdown/B.png",width="200" height="100" /&gt;</td>
+     </tr>
+</table>
+
+:ET

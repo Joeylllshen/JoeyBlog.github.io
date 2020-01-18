@@ -148,7 +148,6 @@ Ctrl + Tab在窗口间进行切换
 # pycharm常用设置
 
 lz提示一下，pycharm中的设置是可以导入和导出的，file>export settings可以保存当前pycharm中的设置为jar文件，重装时可以直接import settings>jar文件，就不用重复配置了。
-
  
 
 file -> Setting ->Editor
