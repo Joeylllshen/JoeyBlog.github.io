@@ -1,36 +1,68 @@
-# Site settings
-title: Joey's Personal Website
-email: 956500504@qq.com
-description: Joey's Blogs
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+# Basic
+title: 沈迦伟-Joey
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: Joey
+# 头像里面的描述
+avatarDesc: C++/Python
+url: "http://baixin.io"
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username: joeylllshen
-url: "https://joeylllshen.github.io/Blog/"
-root: /blog/
-permalink: /:year/:month/:day/:title/
-# this is the url root of the view source link on the footer page.
-viewsourceroot: https://github.com/Joeylllshen/Blog
-# this is the url root of the create page link on the footer page.
-newsourceroot: https://github.com/Joeylllshen/Blog
-#########################################
-# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: Joey
-#duoshuo_url: "http://Joey.github.io"
-# disqus.com commenting system. please note that it is exclusive with duoshuo.com
-disqus_shortname: Joey
-disqus_url: "https://joeylllshen.github.io/Blog/"
-#########################################
+# Comment
+comment:
+    # disqus: Joey
+    duoshuo: Joey 
 
-# Build settings
-markdown: kramdown
+# Social
+social:
+    weibo: 956500504
+    github: leopardpan
+    # twitter: 
+    mail: 956500504@qq.com
 
-# highlight
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421            # TODO:
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-84134159-3   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
